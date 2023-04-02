@@ -43,9 +43,6 @@ app.get("/:word/echo", (req, res) => {
     echo: word,
   });
 });
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
-});
 
 //Start our server and tests!
 app.listen(port, function () {
