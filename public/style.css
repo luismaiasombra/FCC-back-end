@@ -1,7 +1,16 @@
-code {
-    background-color: whitesmoke;
+/* the 'body' selector is required for the tests to pass */
+/* You can change the style attributes if you want */
+body {
+  background-color: #222;
+  color: #ddd;
+  text-align: center;
+  font-family: sans-serif;
 }
 
-section, header {
-    margin: 50px;
+h1 {
+  font-size: 4em;
+}
+
+input[type=text], label {
+  margin-bottom: 8px;
 }
