@@ -1,6 +1,6 @@
 let express = require("express");
 let app = express();
-
+const { port } = require("./server.js");
 app.get("/:word/echo", (req, res) => {
   const { word } = req.params;
   res.json({
